@@ -1,14 +1,11 @@
-#include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 #include <time.h>
-
+#include <stdio.h>
 /**
- * main - Enty point
+ *main - Entry point
  *
- * Return: Always 0 (success)
- *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int n;
@@ -24,3 +21,4 @@ int main(void)
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 
 	return (0);
+}
