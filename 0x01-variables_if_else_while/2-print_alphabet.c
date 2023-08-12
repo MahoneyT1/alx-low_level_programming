@@ -2,16 +2,20 @@
 
 
 /**
- * main - program that prints the alphabet in lowercase
+ * main - A program that prints the alphabet && lowercase
  *
- *  Return: Always 0.
+ *  Return: Always 0 (success)
+ *
  */
+
 int main(void)
 {
-	char letter;
+	char alphabet;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-	putchar(letter);
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	putchar(alphabet);
 	putchar('\n');
+
 	return (0);
 }
+
