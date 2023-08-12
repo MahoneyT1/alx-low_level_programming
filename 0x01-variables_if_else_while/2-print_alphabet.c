@@ -1,18 +1,19 @@
 #include <stdio.h>
 /**
- * main - print alphabets in lower case 
+ * main - print alphabets in lower case a to z
  *
  * Return: always 0 (success)
  *
  */
-int main (void)
+int main(void)
 {
-	char one = 'a';
+	char j = 'a';
 
-	while (one <= 'z')
+	while (j <= 'z')
 	{
-		putchar(one);
-		one++;
+		putchar(j);
+		j++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
+}
