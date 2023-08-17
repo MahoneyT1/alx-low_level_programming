@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - Determine if a number is positive or negative or  zero
- * @0: is the number to be checked 
+ * function positive_or_negative - Determine if a number is positive or negative or  zero
+ * @0: is the number to be checked
  * Return: 0 on success
  */
 
