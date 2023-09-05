@@ -12,19 +12,11 @@ char *create_array(unsigned int size, char c)
 	char *ptr;
 	unsigned int i;
 
-	ptr = malloc(size * sizeof(char));
-	/* we have to use for loop to initialize a specific charater to it */
-	for (i = 0; i < size ; i++)
-	{
-	ptr[i] = c;
-	}
-
-	if (size == 0)
-	{
+	ptr = malloc(sizeof(char) * size);
+	if (size == 0 || ptr == NULL)
 		return (NULL);
-	}
-	else
-	{
-		return (ptr);
-	}
+
+	for (i = 0; i < size; i++)
+		ptr[i] = c;
+	return (ptr);
 }
